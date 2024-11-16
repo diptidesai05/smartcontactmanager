@@ -1,0 +1,60 @@
+@media only screen and (max-width:600px){
+	
+	.sidebar{
+    display: none;
+    width: 80% !important;
+	background: navajowhite;
+	height: 100vh;
+	position: fixed;
+	padding-top: 2%;
+	}
+
+    .content{
+	margin-left: 0% !important;
+	
+    }	
+}
+
+
+
+.sidebar{
+	width: 18%;
+	background: navajowhite;
+	height: 100%;
+	position: fixed;
+	padding-top: 2%;
+	z-index: 9999999;
+	
+}
+
+.content{
+	margin-left: 20%;
+	background:white;
+}
+
+.sidebar a{
+	
+	display: block;
+	width: 100%;
+    padding: 10px 25px;
+	text-decoration: none;
+	color: black;
+}
+
+.sidebar a:hover {
+	background: white;
+}
+
+.sidebar .divider {
+	height: 5px;
+	width: 100%;
+	background: black;
+}
+
+.sidebar .crossBtn {
+	position: absolute;
+	top: 0;
+	right: 35px;
+	font-size: 36px;
+	cursor: pointer;
+}
